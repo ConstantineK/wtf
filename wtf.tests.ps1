@@ -9,6 +9,6 @@ Describe "$commandName tests" {
 
 		It "Should pass this value into the scope" {
 				$var | Should Not BeNullOrEmpty
-		}
+		} # Fails
 	}
 }

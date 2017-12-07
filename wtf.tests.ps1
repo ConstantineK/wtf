@@ -1,7 +1,7 @@
 ﻿import-module Pester
 $var = "string"
 
-Describe "$commandName tests" {
+Describe "tests" {
 	InModuleScope Pester {
 		It "Should have a module version of 4.1.0" {
 			Get-Module Pester | Select-Object -ExpandProperty Version | Should Be "4.1.0"
